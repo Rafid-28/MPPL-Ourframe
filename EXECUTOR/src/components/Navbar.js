@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import { Button } from "./Button";
-import logo from "../images/Rectangle2.png";
+import logo from "./pages/Rectangle2.png";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -24,6 +23,7 @@ function Navbar() {
   }, []);
 
   window.addEventListener("resize", showButton);
+
   return (
     <>
       <nav className="navbar">
@@ -64,7 +64,6 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
         </div>
       </nav>
     </>
