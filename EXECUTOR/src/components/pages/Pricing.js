@@ -1,245 +1,200 @@
 import React from "react";
+import { UsersFour } from "./UsersFour";
+import { UsersThree } from "./UsersThree";
 import "./Pricing.css";
 
-function Pricing() {
+export const Pricing = () => {
   return (
-    <div class="wireframe-paket-foto">
-      <div class="container-2">
-        <div class="group-36">
-          <div class="group-couple-package">Group/Couple Package</div>
-          <div class="group-33">
-            <img
-              class="users-three"
-              src="../assets/vectors/users_three_x2.svg"
-            />
-            <div class="people">2 - 3 People</div>
+    <div className="wireframe-paket-foto">
+      <div className="div">
+        <div className="group">
+          <div className="frame">
+            <div className="rectangle" />
+            <div className="text-wrapper">Additional</div>
+            <div className="rectangle-2" />
           </div>
-          <div class="group-34">
-            <img
-              class="users-four-2"
-              src="../assets/vectors/users_four_x2.svg"
-            />
-            <div class="people-1">4 - 6 People</div>
+          <div className="overlap-group-wrapper">
+            <div className="overlap-group">
+              <div className="group-2">
+                <div className="text-wrapper-2">Extra Time :</div>
+                <div className="group-3">
+                  <div className="text-wrapper-3">30 MENIT</div>
+                  <div className="text-wrapper-4">IDR 150.000,-</div>
+                </div>
+                <div className="group-4">
+                  <div className="text-wrapper-3">60 MENIT</div>
+                  <div className="text-wrapper-5">IDR 250.000,-</div>
+                </div>
+              </div>
+              <p className="p">(hanya dapat dilakukan pada hari H)</p>
+            </div>
           </div>
-          <div class="group-35">
-            <img class="container-4" src="../assets/vectors/container_x2.svg" />
-            <div class="people-2">7 - 10 People</div>
+          <div className="group-wrapper">
+            <div className="group-5">
+              <div className="text-wrapper-6">Extra Cinematic Video :</div>
+              <div className="text-wrapper-7">IDR 350.000,-</div>
+              <div className="text-wrapper-8">1 Minutes</div>
+            </div>
           </div>
-          <div class="group-32">
-            <div class="group-24">
-              <div class="more-details">More Details</div>
-              <div class="oouinext-ltr-1">
-                <img class="vector-8" src="../assets/vectors/vector_5_x2.svg" />
+          <div className="div-wrapper">
+            <div className="group-6">
+              <div className="text-wrapper-9">Extra Edit :</div>
+              <div className="text-wrapper-10">IDR 25.000,-</div>
+              <div className="text-wrapper-11">5 Photos</div>
+            </div>
+          </div>
+          <div className="group-7">
+            <div className="group-8">
+              <div className="text-wrapper-12">Extra Video Reels :</div>
+              <div className="text-wrapper-13">IDR 250.000,-</div>
+              <div className="text-wrapper-14">30 Seconds</div>
+            </div>
+          </div>
+        </div>
+        <div className="overlap">
+          <div className="group-9">
+            <p className="seluruh-informasi">
+              Seluruh informasi terkait pricelist, package, dan booking hanya melalui nomor admin 0822-1052-7184. <br />
+              Untuk keep package, tanggal, dan waktu dapat dilakukan pembayaran DP sebesar 50%. <br />
+              Pelunasan dilakukan H-1 sebelum sesi foto dilaksanakan atau sesi foto tidak dapat dilangsungkan. <br />
+              DP akan dinyatakan hangus apabila terjadi pembatalan secara sepihak oleh customer. <br />
+              Penyerahan soft file paling lambat H+1 setelah sesi foto selesai. <br />
+              Proses edit foto dan video maksimal 14 hari setelah list foto dikirimkan oleh customer. <br />
+              Link google drive hanya bisa diakses dalam waktu 14 hari dihitung dari penyerahan soft file, diharapkan
+              customer untuk segera mengunduh soft file tersebut. <br />
+              Extra time dapat dilakukan dihari H dan tidak berlaku pada saat melakukan proses booking.
+            </p>
+            <div className="frame-2">
+              <div className="rectangle-3" />
+              <div className="text-wrapper">Terms &amp; Condition</div>
+              <div className="rectangle-3" />
+            </div>
+          </div>
+          <footer className="footer">
+            <div className="overlap-2">
+              <div className="footbar" />
+              <img className="image" alt="Image" src="image.png" />
+              <div className="group-10">
+                <p className="text-wrapper-15">Corem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div className="best-graduation">
+                  Best Graduation
+                  <br />
+                  Photographer
+                  <br />
+                  in Town
+                </div>
+              </div>
+              <div className="group-11">
+                <img className="mdi-instagram" alt="Mdi instagram" src="mdi-instagram.svg" />
+                <img className="ic-baseline-whatsapp" alt="Ic baseline whatsapp" src="ic-baseline-whatsapp.svg" />
               </div>
             </div>
-            <div class="group-23">
-              <div class="book-now">Book Now</div>
-              <div class="oouinext-ltr">
-                <img class="vector-7" src="../assets/vectors/vector_2_x2.svg" />
+          </footer>
+          <img className="vector" alt="Vector" src="vector.svg" />
+        </div>
+        <div className="overlap-3">
+          <div className="overlap-wrapper">
+            <div className="overlap-4">
+              <div className="rectangle-4" />
+              <div className="group-12">
+                <div className="text-wrapper-16">About</div>
+                <div className="text-wrapper-17">Portofolio</div>
+                <div className="text-wrapper-18">Home</div>
+                <div className="text-wrapper-19">Pricing</div>
+                <div className="rectangle-wrapper">
+                  <img className="img" alt="Rectangle" src="rectangle-2.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="group-13">
+            <div className="text-wrapper-20">Personal Package</div>
+            <div className="frame-3">
+              <div className="group-14">
+                <div className="SIL-VER-wrapper">
+                  <div className="SIL-VER">
+                    SIL
+                    <br />
+                    VER
+                  </div>
+                </div>
+              </div>
+              <div className="group-14">
+                <div className="overlap-5">
+                  <div className="text-wrapper-21">GOLD</div>
+                </div>
+              </div>
+              <div className="group-15">
+                <div className="PLA-TI-NUM-wrapper">
+                  <div className="PLA-TI-NUM">
+                    PLA
+                    <br />
+                    TI
+                    <br />
+                    NUM
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="group-20">
-          <div class="frame-6">
-            <div class="rectangle-252"></div>
-            <span class="additional">Additional</span>
-            <div class="rectangle-262"></div>
-          </div>
-          <div class="container-12">
-            <div class="group-13">
-              <div class="group-11">
-                <div class="extra-time">Extra Time :</div>
-                <div class="group-10">
-                  <span class="menit">30 MENIT</span>
-                  <div class="idr-150000">IDR 150.000,-</div>
-                </div>
-                <div class="group-9">
-                  <span class="menit-1">60 MENIT</span>
-                  <div class="idr-250000">IDR 250.000,-</div>
-                </div>
+        <div className="group-16">
+          <div className="text-wrapper-22">Group/Couple Package</div>
+          <div className="group-17">
+            <div className="group-18">
+              <div className="overlap-group-2">
+                <div className="text-wrapper-23">Book Now</div>
+                <img className="ooui-next-ltr" alt="Ooui next ltr" src="ooui-next-ltr.svg" />
               </div>
-              <span class="hanya-dapat-dilakukan-pada-hari-h">
-                (hanya dapat dilakukan pada hari H)
-              </span>
             </div>
-            <div class="group-15">
-              <div class="extra-video-reels">Extra Video Reels :</div>
-              <div class="container-13">
-                <span class="seconds">30 Seconds</span>
-                <div class="idr-2500001">IDR 250.000,-</div>
+            <div className="group-19">
+              <div className="overlap-6">
+                <div className="text-wrapper-24">More Details</div>
+                <img className="ooui-next-ltr-2" alt="Ooui next ltr" src="image.svg" />
               </div>
             </div>
           </div>
-          <div class="container-17">
-            <div class="group-17">
-              <div class="extra-edit">Extra Edit :</div>
-              <div class="container-5">
-                <span class="photos">5 Photos</span>
-                <div class="idr-25000">IDR 25.000,-</div>
-              </div>
+          <div className="frame-wrapper">
+            <div className="frame-4">
+              <UsersFour className="icon-instance-node" color="#E2AC1F" />
+              <div className="text-wrapper-25">4 - 6 People</div>
             </div>
-            <div class="group-19">
-              <div class="extra-cinematic-video">Extra Cinematic Video :</div>
-              <div class="container-10">
-                <span class="minutes">1 Minutes</span>
-                <div class="idr-350000">IDR 350.000,-</div>
+          </div>
+          <div className="group-20">
+            <div className="frame-5">
+              <UsersThree className="icon-instance-node" />
+              <div className="text-wrapper-26">2 - 3 People</div>
+              <img src="/images/UsersThree.png"></img>
+            </div>
+          </div>
+          <div className="group-21">
+            <div className="overlap-7">
+              <div className="overlap-group-3">
+                <UsersFour className="users-four" color="black" />
+                <UsersFour className="users-four-instance" color="black" />
               </div>
+              <div className="text-wrapper-27">7 - 10 People</div>
             </div>
           </div>
         </div>
-        <div class="group-12">
-          <div class="frame-51">
-            <div class="rectangle-251"></div>
-            <span class="notes">Notes</span>
-            <div class="rectangle-261"></div>
-          </div>
-          <span class="setiap-wisudawan-akan-mendapatkan-sesi-photoshoot-grup-individu-dan-bersama-keluarga-maupun-teman-photoshoot-grup-sudah-include-dengan-multiple-spots-dengan-catatan-harus-satu-grup-tidak-diperkenankan-untuk-individu-untuk-photoshoot-grup-lebih-dari-10-orang-harap-hubungi-admin-kami">
-            Setiap wisudawan akan mendapatkan sesi photoshoot grup, individu,
-            dan
-            <br />
-            bersama keluarga maupun teman.
-            <br />
-            <br />
+        <div className="group-22">
+          <p className="setiap-wisudawan">
+            Setiap wisudawan akan mendapatkan sesi photoshoot grup, individu, dan&nbsp;&nbsp;bersama keluarga maupun
+            teman. <br />
             Photoshoot grup sudah include dengan multiple spots dengan catatan.
             <br />
-            harus satu grup tidak diperkenankan untuk individu.
-            <br />
-            <br />
+            harus satu grup tidak diperkenankan untuk individu. <br />
             Untuk photoshoot grup lebih dari 10 orang harap hubungi admin kami.
-          </span>
-        </div>
-        <div class="group-38">
-          <div class="frame-5">
-            <div class="rectangle-25"></div>
-            <span class="terms-condition">Terms &amp; Condition</span>
-            <div class="rectangle-26"></div>
-          </div>
-          <span class="seluruh-informasi-terkait-pricelist-package-dan-booking-hanya-melalui-nomor-admin-082210527184-untuk-keep-package-tanggal-dan-waktu-dapat-dilakukan-pembayaran-dp-sebesar-50-pelunasan-dilakukan-h-1-sebelum-sesi-foto-dilaksanakan-atau-sesi-foto-tidak-dapat-dilangsungkan-dp-akan-dinyatakan-hangus-apabila-terjadi-pembatalan-secara-sepihak-oleh-customer-penyerahan-soft-file-paling-lambat-h-1-setelah-sesi-foto-selesai-proses-edit-foto-dan-video-maksimal-14-hari-setelah-list-foto-dikirimkan-oleh-customer-link-google-drive-hanya-bisa-diakses-dalam-waktu-14-hari-dihitung-dari-penyerahan-soft-file-diharapkan-customer-untuk-segera-mengunduh-soft-file-tersebut-extra-time-dapat-dilakukan-dihari-hdan-tidak-berlaku-pada-saat-melakukan-proses-booking">
-            Seluruh informasi terkait pricelist, package, dan booking hanya
-            melalui nomor admin
-            <br />
-            0822-1052-7184.
-            <br />
-            <br />
-            Untuk keep package, tanggal, dan waktu dapat dilakukan pembayaran DP
-            sebesar 50%.
-            <br />
-            <br />
-            Pelunasan dilakukan H-1 sebelum sesi foto dilaksanakan atau sesi
-            foto tidak dapat
-            <br />
-            dilangsungkan.
-            <br />
-            <br />
-            DP akan dinyatakan hangus apabila terjadi pembatalan secara sepihak
-            oleh customer.
-            <br />
-            <br />
-            Penyerahan soft file paling lambat H+1 setelah sesi foto selesai.
-            <br />
-            <br />
-            Proses edit foto dan video maksimal 14 hari setelah list foto
-            dikirimkan oleh customer.
-            <br />
-            <br />
-            Link google drive hanya bisa diakses dalam waktu 14 hari dihitung
-            dari penyerahan soft
-            <br />
-            file, diharapkan customer untuk segera mengunduh soft file tersebut.
-            <br />
-            <br />
-            Extra time dapat dilakukan dihari H dan tidak berlaku pada saat
-            melakukan proses
-            <br />
-            booking.
-          </span>
-        </div>
-        <div class="footer">
-          <div class="image">
-            <div class="container-15">
-              <div class="container-9">
-                <div class="whats-app-image-20240515-at-20393"></div>
-              </div>
-              <div class="container-1">
-                <div class="img-20240516-wa-00161"></div>
-              </div>
-              <div class="container-3">
-                <div class="whats-app-image-20240515-at-20391"></div>
-              </div>
-            </div>
-            <div class="container-7">
-              <div class="container-11">
-                <div class="img-20240516-wa-00011"></div>
-              </div>
-              <div class="container-14">
-                <div class="whats-app-image-20240515-at-20392"></div>
-              </div>
-              <div class="container-16">
-                <div class="img-20240516-wa-00041"></div>
-              </div>
-            </div>
-          </div>
-          <div class="container-8">
-            <div class="group-8">
-              <div class="best-graduation-photographer-in-town">
-                Best Graduation
-                <br />
-                Photographer
-                <br />
-                in Town
-              </div>
-              <span class="corem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit">
-                Corem ipsum dolor sit amet, consectetur adipiscing elit.
-              </span>
-            </div>
-            <div class="container-6">
-              <img class="vector" src="../assets/vectors/vector_7_x2.svg" />
-              <div class="group-7">
-                <div class="mdiinstagram">
-                  <img
-                    class="vector-1"
-                    src="../assets/vectors/vector_10_x2.svg"
-                  />
-                </div>
-                <div class="icbaseline-whatsapp">
-                  <img
-                    class="vector-2"
-                    src="../assets/vectors/vector_12_x2.svg"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="group-37">
-        <div class="personal-package">Personal Package</div>
-        <div class="frame-7">
-          <div class="group-28">
-            <div class="rectangle-331"></div>
-            <span class="sil-ver">
-              SIL
-              <br />
-              VER
-            </span>
-          </div>
-          <div class="group-30">
-            <span class="gold">GOLD</span>
-          </div>
-          <div class="group-29">
-            <span class="pla-ti-num">
-              PLA
-              <br />
-              TI
-              <br />
-              NUM
-            </span>
+          </p>
+          <div className="frame-6">
+            <div className="rectangle-3" />
+            <div className="text-wrapper">Notes</div>
+            <div className="rectangle-3" />
           </div>
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default Pricing;

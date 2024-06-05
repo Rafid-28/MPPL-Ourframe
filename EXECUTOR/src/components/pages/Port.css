@@ -1,4 +1,4 @@
-.wireframe-portofolio {
+/* .wireframe-portofolio {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,18 +12,18 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-top: center; /* Add margin to move the content a bit from the top */
+  margin-top: center; 
 }
 
 .lorem-ipsum {
-  font-size: 3rem; /* Adjust as needed */
-  margin-bottom: 20px; /* Space between text elements */
+  font-size: 3rem; 
+  margin-bottom: 20px; 
 }
 
 .sorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-etiam-eu-turpis-molestie-dictum-est-amattis-tellus-sed-dignissim-metus-nec-fringilla-accumsan-risus-sem-sollicitudin-lacus-ut-interdum-tellus-elit-sed-risus-maecenas-eget-condimentum-velit-sit-amet-feugiat-lectus-class-aptent-taciti-sociosqu-ad-litora-torquent-per-conubia-nostra-per-inceptos-himenaeos {
-  font-size: 1.5rem; /* Adjust as needed */
-  max-width: 800px; /* Maximum width for text block */
-  margin-bottom: 20px; /* Space between text elements */
+  font-size: 1.5rem; 
+  max-width: 800px; 
+  margin-bottom: 20px; 
 }
 
 .gallery {
@@ -137,4 +137,421 @@
 .graduates-sub-4 {
   display: block;
   margin-top: 10px;
+} */
+
+.wireframe-portofolio {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
 }
+
+.wireframe-portofolio .div {
+  background-color: #ffffff;
+  height: 4500px;
+  overflow: hidden;
+  position: relative;
+  width: 1920px;
+}
+
+.wireframe-portofolio .overlap {
+  height: 496px;
+  left: 0;
+  position: absolute;
+  top: -148px;
+  width: 1920px;
+}
+
+.wireframe-portofolio .group {
+  height: 180px;
+  left: 97px;
+  position: absolute;
+  top: 158px;
+  width: 1734px;
+}
+
+.wireframe-portofolio .text-wrapper {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 1635px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 71px;
+}
+
+.wireframe-portofolio .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 1244px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 71px;
+}
+
+.wireframe-portofolio .text-wrapper-3 {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 1084px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 71px;
+}
+
+.wireframe-portofolio .text-wrapper-4 {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 1461px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 71px;
+}
+
+.wireframe-portofolio .text-wrapper-5 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 64px;
+  font-weight: 400;
+  left: 765px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 408px;
+}
+
+.wireframe-portofolio .overlap-group-wrapper {
+  height: 496px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.wireframe-portofolio .overlap-group {
+  height: 496px;
+  position: relative;
+}
+
+.wireframe-portofolio .rectangle {
+  background-color: #363535;
+  height: 200px;
+  left: 0;
+  position: absolute;
+  top: 148px;
+  width: 1920px;
+}
+
+.wireframe-portofolio .group-2 {
+  height: 496px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1837px;
+}
+
+.wireframe-portofolio .text-wrapper-6 {
+  color: #ffffff;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 32px;
+  font-weight: 700;
+  left: 1732px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 229px;
+}
+
+.wireframe-portofolio .text-wrapper-7 {
+  color: #ffffff;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 32px;
+  font-weight: 700;
+  left: 1341px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 229px;
+}
+
+.wireframe-portofolio .text-wrapper-8 {
+  color: #ffffff;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 32px;
+  font-weight: 700;
+  left: 1181px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 229px;
+}
+
+.wireframe-portofolio .text-wrapper-9 {
+  color: #ffffff;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 32px;
+  font-weight: 700;
+  left: 1558px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 229px;
+}
+
+.wireframe-portofolio .rectangle-wrapper {
+  height: 496px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 496px;
+}
+
+.wireframe-portofolio .img {
+  height: 348px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 148px;
+  width: 496px;
+}
+
+.wireframe-portofolio .p {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  left: 294px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 398px;
+  width: 1333px;
+}
+
+.wireframe-portofolio .rectangle-2 {
+  height: 417px;
+  left: 97px;
+  object-fit: cover;
+  position: absolute;
+  top: 1234px;
+  width: 560px;
+}
+
+.wireframe-portofolio .rectangle-3 {
+  height: 417px;
+  left: 1269px;
+  object-fit: cover;
+  position: absolute;
+  top: 1234px;
+  width: 557px;
+}
+
+.wireframe-portofolio .rectangle-4 {
+  height: 731px;
+  left: 687px;
+  object-fit: cover;
+  position: absolute;
+  top: 1234px;
+  width: 552px;
+}
+
+.wireframe-portofolio .rectangle-5 {
+  height: 731px;
+  left: 97px;
+  position: absolute;
+  top: 1694px;
+  width: 552px;
+}
+
+.wireframe-portofolio .rectangle-6 {
+  height: 731px;
+  left: 1277px;
+  object-fit: cover;
+  position: absolute;
+  top: 1694px;
+  width: 552px;
+}
+
+.wireframe-portofolio .rectangle-7 {
+  height: 731px;
+  left: 687px;
+  position: absolute;
+  top: 2007px;
+  width: 552px;
+}
+
+.wireframe-portofolio .rectangle-8 {
+  height: 731px;
+  left: 94px;
+  object-fit: cover;
+  position: absolute;
+  top: 2468px;
+  width: 552px;
+}
+
+.wireframe-portofolio .rectangle-9 {
+  height: 731px;
+  left: 1274px;
+  object-fit: cover;
+  position: absolute;
+  top: 2468px;
+  width: 552px;
+}
+
+.wireframe-portofolio .rectangle-10 {
+  height: 731px;
+  left: 684px;
+  position: absolute;
+  top: 2781px;
+  width: 552px;
+}
+
+.wireframe-portofolio .rectangle-11 {
+  height: 401px;
+  left: 97px;
+  object-fit: cover;
+  position: absolute;
+  top: 3242px;
+  width: 552px;
+}
+
+.wireframe-portofolio .rectangle-12 {
+  height: 401px;
+  left: 1271px;
+  position: absolute;
+  top: 3242px;
+  width: 552px;
+}
+
+
+.wireframe-portofolio .element-university {
+  color: #e2ab1f;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 128px;
+  font-weight: 600;
+  left: 248px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 875px;
+}
+
+.wireframe-portofolio .span {
+  color: #e2ab1f;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 128px;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.wireframe-portofolio .text-wrapper-10 {
+  font-size: 64px;
+}
+
+.wireframe-portofolio .element-graduates {
+  color: #e2ab1f;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 128px;
+  font-weight: 600;
+  left: 1315px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 875px;
+}
+
+.wireframe-portofolio .surabaya-malang {
+  color: #e2ab1f;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 60px;
+  font-weight: 600;
+  left: 797px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 884px;
+  width: 284px;
+}
+
+.wireframe-portofolio .text-wrapper-11 {
+  color: #e2ab1f;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 60px;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.wireframe-portofolio .footer {
+  background-color: #363636;
+  height: 611px;
+  left: 3px;
+  position: absolute;
+  top: 3889px;
+  width: 1920px;
+}
+
+.wireframe-portofolio .image {
+  height: 432px;
+  left: 163px;
+  position: absolute;
+  top: 88px;
+  width: 652px;
+}
+
+.wireframe-portofolio .group-3 {
+  height: 298px;
+  left: 1077px;
+  position: absolute;
+  top: 117px;
+  width: 587px;
+}
+
+.wireframe-portofolio .text-wrapper-12 {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 187px;
+  width: 583px;
+}
+
+.wireframe-portofolio .best-graduation {
+  color: #ffffff;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 48px;
+  font-weight: 700;
+  left: 117px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+}
+
+.wireframe-portofolio .group-4 {
+  height: 64px;
+  left: 1248px;
+  position: absolute;
+  top: 415px;
+  width: 264px;
+}
+
