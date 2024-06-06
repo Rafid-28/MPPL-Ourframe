@@ -1,7 +1,10 @@
 import React from "react";
-import { UsersFour } from "./UsersFour";
-import { UsersThree } from "./UsersThree";
 import "./Pricing.css";
+import OouiNextLtr from "./images/ooui_next-ltr.png";
+import Vector from "./images/Vector.png";
+import UsersThree from "./images/UsersThree.png";
+import UsersFour from "./images/UsersFour.png";
+import UsersFours from "./images/UsersFours.png";
 
 export const Pricing = () => {
   return (
@@ -54,15 +57,23 @@ export const Pricing = () => {
         <div className="overlap">
           <div className="group-9">
             <p className="seluruh-informasi">
-              Seluruh informasi terkait pricelist, package, dan booking hanya melalui nomor admin 0822-1052-7184. <br />
-              Untuk keep package, tanggal, dan waktu dapat dilakukan pembayaran DP sebesar 50%. <br />
-              Pelunasan dilakukan H-1 sebelum sesi foto dilaksanakan atau sesi foto tidak dapat dilangsungkan. <br />
-              DP akan dinyatakan hangus apabila terjadi pembatalan secara sepihak oleh customer. <br />
-              Penyerahan soft file paling lambat H+1 setelah sesi foto selesai. <br />
-              Proses edit foto dan video maksimal 14 hari setelah list foto dikirimkan oleh customer. <br />
-              Link google drive hanya bisa diakses dalam waktu 14 hari dihitung dari penyerahan soft file, diharapkan
-              customer untuk segera mengunduh soft file tersebut. <br />
-              Extra time dapat dilakukan dihari H dan tidak berlaku pada saat melakukan proses booking.
+              Seluruh informasi terkait pricelist, package, dan booking hanya
+              melalui nomor admin 0822-1052-7184. <br />
+              Untuk keep package, tanggal, dan waktu dapat dilakukan pembayaran
+              DP sebesar 50%. <br />
+              Pelunasan dilakukan H-1 sebelum sesi foto dilaksanakan atau sesi
+              foto tidak dapat dilangsungkan. <br />
+              DP akan dinyatakan hangus apabila terjadi pembatalan secara
+              sepihak oleh customer. <br />
+              Penyerahan soft file paling lambat H+1 setelah sesi foto selesai.{" "}
+              <br />
+              Proses edit foto dan video maksimal 14 hari setelah list foto
+              dikirimkan oleh customer. <br />
+              Link google drive hanya bisa diakses dalam waktu 14 hari dihitung
+              dari penyerahan soft file, diharapkan customer untuk segera
+              mengunduh soft file tersebut. <br />
+              Extra time dapat dilakukan dihari H dan tidak berlaku pada saat
+              melakukan proses booking.
             </p>
             <div className="frame-2">
               <div className="rectangle-3" />
@@ -70,43 +81,8 @@ export const Pricing = () => {
               <div className="rectangle-3" />
             </div>
           </div>
-          <footer className="footer">
-            <div className="overlap-2">
-              <div className="footbar" />
-              <img className="image" alt="Image" src="image.png" />
-              <div className="group-10">
-                <p className="text-wrapper-15">Corem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <div className="best-graduation">
-                  Best Graduation
-                  <br />
-                  Photographer
-                  <br />
-                  in Town
-                </div>
-              </div>
-              <div className="group-11">
-                <img className="mdi-instagram" alt="Mdi instagram" src="mdi-instagram.svg" />
-                <img className="ic-baseline-whatsapp" alt="Ic baseline whatsapp" src="ic-baseline-whatsapp.svg" />
-              </div>
-            </div>
-          </footer>
-          <img className="vector" alt="Vector" src="vector.svg" />
         </div>
         <div className="overlap-3">
-          <div className="overlap-wrapper">
-            <div className="overlap-4">
-              <div className="rectangle-4" />
-              <div className="group-12">
-                <div className="text-wrapper-16">About</div>
-                <div className="text-wrapper-17">Portofolio</div>
-                <div className="text-wrapper-18">Home</div>
-                <div className="text-wrapper-19">Pricing</div>
-                <div className="rectangle-wrapper">
-                  <img className="img" alt="Rectangle" src="rectangle-2.png" />
-                </div>
-              </div>
-            </div>
-          </div>
           <div className="group-13">
             <div className="text-wrapper-20">Personal Package</div>
             <div className="frame-3">
@@ -144,34 +120,41 @@ export const Pricing = () => {
             <div className="group-18">
               <div className="overlap-group-2">
                 <div className="text-wrapper-23">Book Now</div>
-                <img className="ooui-next-ltr" alt="Ooui next ltr" src="ooui-next-ltr.svg" />
+                <img
+                  className="ooui-next-ltr"
+                  alt="Ooui next ltr"
+                  src={Vector}
+                />
               </div>
             </div>
             <div className="group-19">
               <div className="overlap-6">
                 <div className="text-wrapper-24">More Details</div>
-                <img className="ooui-next-ltr-2" alt="Ooui next ltr" src="image.svg" />
+                <img
+                  className="ooui-next-ltr-2"
+                  alt="Ooui next ltr"
+                  src={OouiNextLtr}
+                />
               </div>
             </div>
           </div>
           <div className="frame-wrapper">
             <div className="frame-4">
-              <UsersFour className="icon-instance-node" color="#E2AC1F" />
+              <img className="group4" alt="group-4" src={UsersFour}></img>
               <div className="text-wrapper-25">4 - 6 People</div>
             </div>
           </div>
           <div className="group-20">
             <div className="frame-5">
-              <UsersThree className="icon-instance-node" />
+              <img className="group3" alt="group-3" src={UsersThree}></img>
               <div className="text-wrapper-26">2 - 3 People</div>
-              <img src="/images/UsersThree.png"></img>
             </div>
           </div>
           <div className="group-21">
             <div className="overlap-7">
               <div className="overlap-group-3">
-                <UsersFour className="users-four" color="black" />
-                <UsersFour className="users-four-instance" color="black" />
+                <img className="group5" alt="group-5" src={UsersFours} />
+                <img className="group6" alt="group-6" src={UsersFours} />
               </div>
               <div className="text-wrapper-27">7 - 10 People</div>
             </div>
@@ -179,8 +162,8 @@ export const Pricing = () => {
         </div>
         <div className="group-22">
           <p className="setiap-wisudawan">
-            Setiap wisudawan akan mendapatkan sesi photoshoot grup, individu, dan&nbsp;&nbsp;bersama keluarga maupun
-            teman. <br />
+            Setiap wisudawan akan mendapatkan sesi photoshoot grup, individu,
+            dan&nbsp;&nbsp;bersama keluarga maupun teman. <br />
             Photoshoot grup sudah include dengan multiple spots dengan catatan.
             <br />
             harus satu grup tidak diperkenankan untuk individu. <br />

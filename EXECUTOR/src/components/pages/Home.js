@@ -66,6 +66,7 @@ function Home() {
               src="/images/Rectangle81.jpeg"
               alt="Rectangle"
             />
+            <div className="text-wrapper">About us</div>
           </div>
           <div className="group-4">
             <img
@@ -73,6 +74,7 @@ function Home() {
               src="/images/Rectangle8.jpeg"
               alt="Rectangle"
             />
+            <div className="text-wrapper">Graduation Gallery</div>
           </div>
         </div>
       </div>

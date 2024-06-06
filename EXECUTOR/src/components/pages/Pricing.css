@@ -1,932 +1,943 @@
 .wireframe-paket-foto {
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .wireframe-paket-foto .div {
-    background-color: #ffffff;
-    height: 5967px;
-    overflow: hidden;
-    position: relative;
-    width: 1920px;
-  }
-  
-  .wireframe-paket-foto .group {
-    height: 756px;
-    left: 124px;
-    position: absolute;
-    top: 3089px;
-    width: 1673px;
-  }
-  
-  .wireframe-paket-foto .frame {
-    align-items: center;
-    display: inline-flex;
-    gap: 72px;
-    left: 0;
-    position: absolute;
-    top: 0;
-  }
-  
-  .wireframe-paket-foto .rectangle {
-    background-color: #000000;
-    height: 5px;
-    position: relative;
-    width: 620px;
-  }
-  
-  .wireframe-paket-foto .text-wrapper {
-    color: #000000;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 68px;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: normal;
-    margin-top: -1px;
-    position: relative;
-    width: fit-content;
-  }
-  
-  .wireframe-paket-foto .rectangle-2 {
-    background-color: #000000;
-    height: 5px;
-    position: relative;
-    width: 586px;
-  }
-  
-  .wireframe-paket-foto .overlap-group-wrapper {
-    height: 355px;
-    left: 54px;
-    position: absolute;
-    top: 118px;
-    width: 757px;
-  }
-  
-  .wireframe-paket-foto .overlap-group {
-    background-color: #d9d9d954;
-    height: 355px;
-    position: relative;
-    width: 755px;
-  }
-  
-  .wireframe-paket-foto .group-2 {
-    height: 268px;
-    left: 29px;
-    position: absolute;
-    top: 17px;
-    width: 718px;
-  }
-  
-  .wireframe-paket-foto .text-wrapper-2 {
-    color: #000000;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 48px;
-    font-weight: 400;
-    left: 1px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 0;
-  }
-  
-  .wireframe-paket-foto .group-3 {
-    height: 77px;
-    left: 0;
-    position: absolute;
-    top: 86px;
-    width: 714px;
-  }
-  
-  .wireframe-paket-foto .text-wrapper-3 {
-    color: #000000;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 64px;
-    font-weight: 400;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 0;
-  }
-  
-  .wireframe-paket-foto .text-wrapper-4 {
-    color: #000000;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 40px;
-    font-weight: 400;
-    left: 453px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 15px;
-    white-space: nowrap;
-  }
-  
-  .wireframe-paket-foto .group-4 {
-    height: 77px;
-    left: 1px;
-    position: absolute;
-    top: 191px;
-    width: 719px;
-  }
-  
-  .wireframe-paket-foto .text-wrapper-5 {
-    color: #000000;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 40px;
-    font-weight: 400;
-    left: 452px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 14px;
-    white-space: nowrap;
-  }
-  
-  .wireframe-paket-foto .p {
-    color: #545454;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 24px;
-    font-weight: 400;
-    left: 30px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 298px;
-  }
-  
-  .wireframe-paket-foto .group-wrapper {
-    background-color: #d9d9d954;
-    height: 236px;
-    left: 853px;
-    position: absolute;
-    top: 520px;
-    width: 786px;
-  }
-  
-  .wireframe-paket-foto .group-5 {
-    height: 166px;
-    left: 20px;
-    position: relative;
-    top: 32px;
-    width: 764px;
-  }
-  
-  .wireframe-paket-foto .text-wrapper-6 {
-    color: #000000;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 48px;
-    font-weight: 400;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 0;
-    width: 559px;
-  }
-  
-  .wireframe-paket-foto .text-wrapper-7 {
-    color: #000000;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 40px;
-    font-weight: 400;
-    left: 478px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 104px;
-    width: 279px;
-  }
-  
-  .wireframe-paket-foto .text-wrapper-8 {
-    color: #000000;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 64px;
-    font-weight: 400;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 89px;
-    width: 306px;
-  }
-  
-  .wireframe-paket-foto .div-wrapper {
-    background-color: #d9d9d954;
-    height: 236px;
-    left: 54px;
-    position: absolute;
-    top: 520px;
-    width: 755px;
-  }
-  
-  .wireframe-paket-foto .group-6 {
-    height: 163px;
-    left: 30px;
-    position: relative;
-    top: 32px;
-    width: 702px;
-  }
-  
-  .wireframe-paket-foto .text-wrapper-9 {
-    color: #000000;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 48px;
-    font-weight: 400;
-    left: 7px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 0;
-  }
-  
-  .wireframe-paket-foto .text-wrapper-10 {
-    color: #000000;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 40px;
-    font-weight: 400;
-    left: 458px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 101px;
-    white-space: nowrap;
-  }
-  
-  .wireframe-paket-foto .text-wrapper-11 {
-    color: #000000;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 64px;
-    font-weight: 400;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 86px;
-  }
-  
-  .wireframe-paket-foto .group-7 {
-    background-color: #d9d9d954;
-    height: 355px;
-    left: 856px;
-    position: absolute;
-    top: 118px;
-    width: 783px;
-  }
-  
-  .wireframe-paket-foto .group-8 {
-    height: 226px;
-    left: 16px;
-    position: relative;
-    top: 44px;
-    width: 773px;
-  }
-  
-  .wireframe-paket-foto .text-wrapper-12 {
-    color: #000000;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 48px;
-    font-weight: 400;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 0;
-    width: 487px;
-  }
-  
-  .wireframe-paket-foto .text-wrapper-13 {
-    color: #000000;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 40px;
-    font-weight: 400;
-    left: 493px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 133px;
-    width: 274px;
-  }
-  
-  .wireframe-paket-foto .text-wrapper-14 {
-    color: #000000;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 64px;
-    font-weight: 400;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 111px;
-    width: 377px;
-  }
-  
-  .wireframe-paket-foto .overlap {
-    height: 1361px;
-    left: 0;
-    position: absolute;
-    top: 4606px;
-    width: 2196px;
-  }
-  
-  .wireframe-paket-foto .group-9 {
-    height: 891px;
-    left: 54px;
-    position: absolute;
-    top: 0;
-    width: 2142px;
-  }
-  
-  .wireframe-paket-foto .seluruh-informasi {
-    color: #000000;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 40px;
-    font-weight: 400;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 118px;
-    width: 1799px;
-  }
-  
-  .wireframe-paket-foto .frame-2 {
-    align-items: center;
-    display: inline-flex;
-    gap: 72px;
-    justify-content: center;
-    left: 71px;
-    position: absolute;
-    top: 0;
-  }
-  
-  .wireframe-paket-foto .rectangle-3 {
-    background-color: #000000;
-    height: 5px;
-    position: relative;
-    width: 668px;
-  }
-  
-  .wireframe-paket-foto .footer {
-    background-color: transparent;
-    height: 941px;
-    left: 0;
-    position: absolute;
-    top: 421px;
-    width: 1920px;
-  }
-  
-  .wireframe-paket-foto .overlap-2 {
-    height: 941px;
-    position: relative;
-    width: 1920px;
-  }
-  
-  .wireframe-paket-foto .footbar {
-    background-color: #363636;
-    height: 611px;
-    left: 0;
-    position: absolute;
-    top: 330px;
-    width: 1920px;
-  }
-  
-  .wireframe-paket-foto .image {
-    height: 432px;
-    left: 163px;
-    position: absolute;
-    top: 418px;
-    width: 652px;
-  }
-  
-  .wireframe-paket-foto .group-10 {
-    height: 298px;
-    left: 1077px;
-    position: absolute;
-    top: 447px;
-    width: 587px;
-  }
-  
-  .wireframe-paket-foto .text-wrapper-15 {
-    color: #ffffff;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 32px;
-    font-weight: 400;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 187px;
-    width: 583px;
-  }
-  
-  .wireframe-paket-foto .best-graduation {
-    color: #ffffff;
-    font-family: "Inter-Bold", Helvetica;
-    font-size: 48px;
-    font-weight: 700;
-    left: 117px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 0;
-  }
-  
-  .wireframe-paket-foto .group-11 {
-    height: 809px;
-    left: 1248px;
-    position: absolute;
-    top: 0;
-    width: 264px;
-  }
-  
-  .wireframe-paket-foto .mdi-instagram {
-    height: 64px;
-    left: 104px;
-    position: absolute;
-    top: 745px;
-    width: 64px;
-  }
-  
-  .wireframe-paket-foto .ic-baseline-whatsapp {
-    height: 64px;
-    left: 200px;
-    position: absolute;
-    top: 745px;
-    width: 64px;
-  }
-  
-  .wireframe-paket-foto .vector {
-    height: 47px;
-    left: 1280px;
-    position: absolute;
-    top: 1186px;
-    width: 48px;
-  }
-  
-  .wireframe-paket-foto .overlap-3 {
-    height: 1625px;
-    left: 0;
-    position: absolute;
-    top: -148px;
-    width: 1920px;
-  }
-  
-  .wireframe-paket-foto .overlap-wrapper {
-    height: 496px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 1920px;
-  }
-  
-  .wireframe-paket-foto .overlap-4 {
-    height: 496px;
-    position: relative;
-  }
-  
-  .wireframe-paket-foto .rectangle-4 {
-    background-color: #363535;
-    height: 200px;
-    left: 0;
-    position: absolute;
-    top: 148px;
-    width: 1920px;
-  }
-  
-  .wireframe-paket-foto .group-12 {
-    height: 496px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 1837px;
-  }
-  
-  .wireframe-paket-foto .text-wrapper-16 {
-    color: #ffffff;
-    font-family: "Inter-Bold", Helvetica;
-    font-size: 32px;
-    font-weight: 700;
-    left: 1732px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 229px;
-  }
-  
-  .wireframe-paket-foto .text-wrapper-17 {
-    color: #ffffff;
-    font-family: "Inter-Bold", Helvetica;
-    font-size: 32px;
-    font-weight: 700;
-    left: 1341px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 229px;
-  }
-  
-  .wireframe-paket-foto .text-wrapper-18 {
-    color: #ffffff;
-    font-family: "Inter-Bold", Helvetica;
-    font-size: 32px;
-    font-weight: 700;
-    left: 1181px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 229px;
-  }
-  
-  .wireframe-paket-foto .text-wrapper-19 {
-    color: #ffffff;
-    font-family: "Inter-Bold", Helvetica;
-    font-size: 32px;
-    font-weight: 700;
-    left: 1558px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 229px;
-  }
-  
-  .wireframe-paket-foto .rectangle-wrapper {
-    height: 496px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 496px;
-  }
-  
-  .wireframe-paket-foto .img {
-    height: 348px;
-    left: 0;
-    object-fit: cover;
-    position: absolute;
-    top: 148px;
-    width: 496px;
-  }
-  
-  .wireframe-paket-foto .group-13 {
-    height: 1173px;
-    left: 129px;
-    position: absolute;
-    top: 452px;
-    width: 1664px;
-  }
-  
-  .wireframe-paket-foto .text-wrapper-20 {
-    color: #000000;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 64px;
-    font-weight: 400;
-    left: 561px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 0;
-  }
-  
-  .wireframe-paket-foto .frame-3 {
-    align-items: flex-start;
-    display: inline-flex;
-    gap: 51px;
-    left: 0;
-    position: absolute;
-    top: 148px;
-  }
-  
-  .wireframe-paket-foto .group-14 {
-    height: 1025px;
-    position: relative;
-    width: 522px;
-  }
-  
-  .wireframe-paket-foto .SIL-VER-wrapper {
-    background-image: url(./images/Img20240516Wa00041.jpeg);
-    background-position: 50% 50%;
-    background-size: cover;
-    height: 1025px;
-    position: relative;
-    width: 520px;
-  }
-  
-  .wireframe-paket-foto .SIL-VER {
-    -webkit-text-stroke: 0.2px #00000033;
-    color: #ffffff;
-    font-family: "Jacques Francois-Regular", Helvetica;
-    font-size: 96px;
-    font-weight: 400;
-    left: 296px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 0;
-  }
-  
-  .wireframe-paket-foto .overlap-5 {
-    background-image: url(./images/Rectangle35.jpeg);
-    background-position: 50% 50%;
-    background-size: cover;
-    height: 1025px;
-    position: relative;
-    width: 520px;
-  }
-  
-  .wireframe-paket-foto .text-wrapper-21 {
-    -webkit-text-stroke: 0.2px #00000033;
-    color: #ffffff;
-    font-family: "Jacques Francois-Regular", Helvetica;
-    font-size: 96px;
-    font-weight: 400;
-    left: 99px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 98px;
-  }
-  
-  .wireframe-paket-foto .group-15 {
-    height: 1025px;
-    margin-right: -2px;
-    position: relative;
-    width: 522px;
-  }
-  
-  .wireframe-paket-foto .PLA-TI-NUM-wrapper {
-    background-image: url(./images/Rectangle34.jpeg);
-    background-position: 50% 50%;
-    background-size: cover;
-    height: 1025px;
-    position: relative;
-    width: 520px;
-  }
-  
-  .wireframe-paket-foto .PLA-TI-NUM {
-    -webkit-text-stroke: 0.2px #00000033;
-    color: #ffffff;
-    font-family: "Jacques Francois-Regular", Helvetica;
-    font-size: 96px;
-    font-weight: 400;
-    left: 22px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 6px;
-  }
-  
-  .wireframe-paket-foto .group-16 {
-    height: 1372px;
-    left: 129px;
-    position: absolute;
-    top: 1614px;
-    width: 1664px;
-  }
-  
-  .wireframe-paket-foto .text-wrapper-22 {
-    color: #000000;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 64px;
-    font-weight: 400;
-    left: 481px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 0;
-  }
-  
-  .wireframe-paket-foto .group-17 {
-    height: 130px;
-    left: 262px;
-    position: absolute;
-    top: 1242px;
-    width: 1106px;
-  }
-  
-  .wireframe-paket-foto .group-18 {
-    height: 130px;
-    left: 586px;
-    position: absolute;
-    top: 0;
-    width: 522px;
-  }
-  
-  .wireframe-paket-foto .overlap-group-2 {
-    background-color: #e2ab1f;
-    border-radius: 15px;
-    height: 130px;
-    position: relative;
-    width: 520px;
-  }
-  
-  .wireframe-paket-foto .text-wrapper-23 {
-    color: #000000;
-    font-family: "Inter-Bold", Helvetica;
-    font-size: 40px;
-    font-weight: 700;
-    left: 133px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 41px;
-    white-space: nowrap;
-  }
-  
-  .wireframe-paket-foto .ooui-next-ltr {
-    height: 75px;
-    left: 367px;
-    position: absolute;
-    top: 27px;
-    width: 75px;
-  }
-  
-  .wireframe-paket-foto .group-19 {
-    height: 130px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 522px;
-  }
-  
-  .wireframe-paket-foto .overlap-6 {
-    background-color: #363636;
-    border-radius: 15px;
-    height: 130px;
-    position: relative;
-    width: 520px;
-  }
-  
-  .wireframe-paket-foto .text-wrapper-24 {
-    color: #e2ab1f;
-    font-family: "Inter-Bold", Helvetica;
-    font-size: 40px;
-    font-weight: 700;
-    left: 121px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 41px;
-    white-space: nowrap;
-  }
-  
-  .wireframe-paket-foto .ooui-next-ltr-2 {
-    height: 75px;
-    left: 410px;
-    position: absolute;
-    top: 27px;
-    width: 75px;
-  }
-  
-  .wireframe-paket-foto .frame-wrapper {
-    background-color: #363636;
-    height: 255px;
-    left: 245px;
-    position: absolute;
-    top: 510px;
-    width: 1417px;
-  }
-  
-  .wireframe-paket-foto .frame-4 {
-    align-items: center;
-    display: inline-flex;
-    gap: 50px;
-    left: 431px;
-    position: relative;
-    top: 63px;
-  }
-  
-  .wireframe-paket-foto .icon-instance-node {
-    height: 130px !important;
-    position: relative !important;
-    width: 130px !important;
-  }
-  
-  .wireframe-paket-foto .text-wrapper-25 {
-    color: #e2ab1f;
-    font-family: "Inter-Bold", Helvetica;
-    font-size: 64px;
-    font-weight: 700;
-    letter-spacing: 0;
-    line-height: normal;
-    position: relative;
-    width: fit-content;
-  }
-  
-  .wireframe-paket-foto .group-20 {
-    background-color: #e2ab1f;
-    height: 255px;
-    left: 0;
-    position: absolute;
-    top: 178px;
-    width: 1417px;
-  }
-  
-  .wireframe-paket-foto .frame-5 {
-    align-items: center;
-    display: inline-flex;
-    gap: 50px;
-    left: 440px;
-    position: relative;
-    top: 63px;
-  }
-  
-  .wireframe-paket-foto .text-wrapper-26 {
-    color: #000000;
-    font-family: "Inter-Bold", Helvetica;
-    font-size: 64px;
-    font-weight: 700;
-    letter-spacing: 0;
-    line-height: normal;
-    position: relative;
-    width: fit-content;
-  }
-  
-  .wireframe-paket-foto .group-21 {
-    height: 255px;
-    left: 0;
-    position: absolute;
-    top: 842px;
-    width: 1419px;
-  }
-  
-  .wireframe-paket-foto .overlap-7 {
-    background-color: #e2ab1f;
-    height: 255px;
-    position: relative;
-    width: 1417px;
-  }
-  
-  .wireframe-paket-foto .overlap-group-3 {
-    height: 130px;
-    left: 392px;
-    position: absolute;
-    top: 63px;
-    width: 228px;
-  }
-  
-  .wireframe-paket-foto .users-four {
-    height: 130px !important;
-    left: 0 !important;
-    position: absolute !important;
-    top: 0 !important;
-    width: 130px !important;
-  }
-  
-  .wireframe-paket-foto .users-four-instance {
-    height: 130px !important;
-    left: 98px !important;
-    position: absolute !important;
-    top: 0 !important;
-    width: 130px !important;
-  }
-  
-  .wireframe-paket-foto .text-wrapper-27 {
-    color: #000000;
-    font-family: "Inter-Bold", Helvetica;
-    font-size: 64px;
-    font-weight: 700;
-    left: 645px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 90px;
-  }
-  
-  .wireframe-paket-foto .group-22 {
-    height: 458px;
-    left: 124px;
-    position: absolute;
-    top: 3948px;
-    width: 1675px;
-  }
-  
-  .wireframe-paket-foto .setiap-wisudawan {
-    color: #000000;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 48px;
-    font-weight: 400;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 110px;
-    width: 1666px;
-  }
-  
-  .wireframe-paket-foto .frame-6 {
-    align-items: center;
-    display: inline-flex;
-    gap: 72px;
-    justify-content: center;
-    left: 1px;
-    position: absolute;
-    top: 0;
-  }
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
 
-  
-  
+.wireframe-paket-foto .div {
+  background-color: #ffffff;
+  height: 5967px;
+  overflow: hidden;
+  position: relative;
+  width: 1920px;
+}
+
+.wireframe-paket-foto .group {
+  height: 756px;
+  left: 124px;
+  position: absolute;
+  top: 3089px;
+  width: 1673px;
+}
+
+.wireframe-paket-foto .frame {
+  align-items: center;
+  display: inline-flex;
+  gap: 72px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.wireframe-paket-foto .rectangle {
+  background-color: #000000;
+  height: 5px;
+  position: relative;
+  width: 620px;
+}
+
+.wireframe-paket-foto .text-wrapper {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 68px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.wireframe-paket-foto .rectangle-2 {
+  background-color: #000000;
+  height: 5px;
+  position: relative;
+  width: 586px;
+}
+
+.wireframe-paket-foto .overlap-group-wrapper {
+  height: 355px;
+  left: 54px;
+  position: absolute;
+  top: 118px;
+  width: 757px;
+}
+
+.wireframe-paket-foto .overlap-group {
+  background-color: #d9d9d954;
+  height: 355px;
+  position: relative;
+  width: 755px;
+}
+
+.wireframe-paket-foto .group-2 {
+  height: 268px;
+  left: 29px;
+  position: absolute;
+  top: 17px;
+  width: 718px;
+}
+
+.wireframe-paket-foto .text-wrapper-2 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  left: 1px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.wireframe-paket-foto .group-3 {
+  height: 77px;
+  left: 0;
+  position: absolute;
+  top: 86px;
+  width: 714px;
+}
+
+.wireframe-paket-foto .text-wrapper-3 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 64px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.wireframe-paket-foto .text-wrapper-4 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 453px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 15px;
+  white-space: nowrap;
+}
+
+.wireframe-paket-foto .group-4 {
+  height: 77px;
+  left: -23px;
+  position: absolute;
+  top: 191px;
+  width: 719px;
+}
+
+.wireframe-paket-foto .text-wrapper-5 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 452px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 14px;
+  white-space: nowrap;
+}
+
+.wireframe-paket-foto .p {
+  color: #545454;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 298px;
+}
+
+.wireframe-paket-foto .group-wrapper {
+  background-color: #d9d9d954;
+  height: 236px;
+  left: 853px;
+  position: absolute;
+  top: 520px;
+  width: 786px;
+}
+
+.wireframe-paket-foto .group-5 {
+  height: 166px;
+  left: 20px;
+  position: relative;
+  top: 32px;
+  width: 764px;
+}
+
+.wireframe-paket-foto .text-wrapper-6 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 559px;
+}
+
+.wireframe-paket-foto .text-wrapper-7 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 478px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 104px;
+  width: 279px;
+}
+
+.wireframe-paket-foto .text-wrapper-8 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 64px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 89px;
+  width: 306px;
+}
+
+.wireframe-paket-foto .div-wrapper {
+  background-color: #d9d9d954;
+  height: 236px;
+  left: 54px;
+  position: absolute;
+  top: 520px;
+  width: 755px;
+}
+
+.wireframe-paket-foto .group-6 {
+  height: 163px;
+  left: 30px;
+  position: relative;
+  top: 32px;
+  width: 702px;
+}
+
+.wireframe-paket-foto .text-wrapper-9 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  left: 7px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.wireframe-paket-foto .text-wrapper-10 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 458px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 101px;
+  white-space: nowrap;
+}
+
+.wireframe-paket-foto .text-wrapper-11 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 64px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 86px;
+}
+
+.wireframe-paket-foto .group-7 {
+  background-color: #d9d9d954;
+  height: 355px;
+  left: 856px;
+  position: absolute;
+  top: 118px;
+  width: 783px;
+}
+
+.wireframe-paket-foto .group-8 {
+  height: 226px;
+  left: 16px;
+  position: relative;
+  top: 44px;
+  width: 773px;
+}
+
+.wireframe-paket-foto .text-wrapper-12 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 487px;
+}
+
+.wireframe-paket-foto .text-wrapper-13 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 493px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 133px;
+  width: 274px;
+}
+
+.wireframe-paket-foto .text-wrapper-14 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 64px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 111px;
+  width: 377px;
+}
+
+.wireframe-paket-foto .overlap {
+  height: 1361px;
+  left: 0;
+  position: absolute;
+  top: 4606px;
+  width: 2196px;
+}
+
+.wireframe-paket-foto .group-9 {
+  height: 891px;
+  left: 54px;
+  position: absolute;
+  top: 0;
+  width: 2142px;
+}
+
+.wireframe-paket-foto .seluruh-informasi {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 118px;
+  width: 1799px;
+}
+
+.wireframe-paket-foto .frame-2 {
+  align-items: center;
+  display: inline-flex;
+  gap: 72px;
+  justify-content: center;
+  left: 71px;
+  position: absolute;
+  top: 0;
+}
+
+.wireframe-paket-foto .rectangle-3 {
+  background-color: #000000;
+  height: 5px;
+  position: relative;
+  width: 668px;
+}
+
+.wireframe-paket-foto .footer {
+  background-color: transparent;
+  height: 941px;
+  left: 0;
+  position: absolute;
+  top: 421px;
+  width: 1920px;
+}
+
+.wireframe-paket-foto .overlap-2 {
+  height: 941px;
+  position: relative;
+  width: 1920px;
+}
+
+.wireframe-paket-foto .footbar {
+  background-color: #363636;
+  height: 611px;
+  left: 0;
+  position: absolute;
+  top: 330px;
+  width: 1920px;
+}
+
+.wireframe-paket-foto .image {
+  height: 432px;
+  left: 163px;
+  position: absolute;
+  top: 418px;
+  width: 652px;
+}
+
+.wireframe-paket-foto .group-10 {
+  height: 298px;
+  left: 1077px;
+  position: absolute;
+  top: 447px;
+  width: 587px;
+}
+
+.wireframe-paket-foto .text-wrapper-15 {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 187px;
+  width: 583px;
+}
+
+.wireframe-paket-foto .best-graduation {
+  color: #ffffff;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 48px;
+  font-weight: 700;
+  left: 117px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+}
+
+.wireframe-paket-foto .group-11 {
+  height: 809px;
+  left: 1248px;
+  position: absolute;
+  top: 0;
+  width: 264px;
+}
+
+.wireframe-paket-foto .mdi-instagram {
+  height: 64px;
+  left: 104px;
+  position: absolute;
+  top: 745px;
+  width: 64px;
+}
+
+.wireframe-paket-foto .ic-baseline-whatsapp {
+  height: 64px;
+  left: 200px;
+  position: absolute;
+  top: 745px;
+  width: 64px;
+}
+
+.wireframe-paket-foto .vector {
+  height: 47px;
+  left: 1280px;
+  position: absolute;
+  top: 1186px;
+  width: 48px;
+}
+
+.wireframe-paket-foto .overlap-3 {
+  height: 1625px;
+  left: 0;
+  position: absolute;
+  top: -148px;
+  width: 1920px;
+}
+
+.wireframe-paket-foto .overlap-wrapper {
+  height: 496px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.wireframe-paket-foto .overlap-4 {
+  height: 496px;
+  position: relative;
+}
+
+.wireframe-paket-foto .rectangle-4 {
+  background-color: #363535;
+  height: 200px;
+  left: 0;
+  position: absolute;
+  top: 148px;
+  width: 1920px;
+}
+
+.wireframe-paket-foto .group-12 {
+  height: 496px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1837px;
+}
+
+.wireframe-paket-foto .text-wrapper-16 {
+  color: #ffffff;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 32px;
+  font-weight: 700;
+  left: 1732px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 229px;
+}
+
+.wireframe-paket-foto .text-wrapper-17 {
+  color: #ffffff;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 32px;
+  font-weight: 700;
+  left: 1341px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 229px;
+}
+
+.wireframe-paket-foto .text-wrapper-18 {
+  color: #ffffff;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 32px;
+  font-weight: 700;
+  left: 1181px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 229px;
+}
+
+.wireframe-paket-foto .text-wrapper-19 {
+  color: #ffffff;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 32px;
+  font-weight: 700;
+  left: 1558px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 229px;
+}
+
+.wireframe-paket-foto .rectangle-wrapper {
+  height: 496px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 496px;
+}
+
+.wireframe-paket-foto .img {
+  height: 348px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 148px;
+  width: 496px;
+}
+
+.wireframe-paket-foto .group-13 {
+  height: 1173px;
+  left: 129px;
+  position: absolute;
+  top: 452px;
+  width: 1664px;
+}
+
+.wireframe-paket-foto .text-wrapper-20 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 64px;
+  font-weight: 400;
+  left: 561px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: -150px;
+}
+
+.wireframe-paket-foto .frame-3 {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 51px;
+  left: 0;
+  position: absolute;
+}
+
+.wireframe-paket-foto .group-14 {
+  height: 1025px;
+  position: relative;
+  width: 522px;
+}
+
+.wireframe-paket-foto .SIL-VER-wrapper {
+  background-image: url(./images/Img20240516Wa00041.jpeg);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1025px;
+  position: relative;
+  width: 520px;
+}
+
+.wireframe-paket-foto .SIL-VER {
+  -webkit-text-stroke: 0.2px #00000033;
+  color: silver;
+  -webkit-text-stroke: 3px black;
+  font-family: "Jacques Francois-Regular", Helvetica;
+  font-size: 96px;
+  font-weight: 400;
+  left: 296px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.wireframe-paket-foto .overlap-5 {
+  background-image: url(./images/Rectangle35.jpeg);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1025px;
+  position: relative;
+  width: 520px;
+}
+
+.wireframe-paket-foto .text-wrapper-21 {
+  -webkit-text-stroke: 3px black;
+  color: gold;
+  font-family: "Jacques Francois-Regular", Helvetica;
+  font-size: 96px;
+  font-weight: 400;
+  left: 99px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 98px;
+}
+
+.wireframe-paket-foto .group-15 {
+  height: 1025px;
+  margin-right: -2px;
+  position: relative;
+  width: 522px;
+}
+
+.wireframe-paket-foto .PLA-TI-NUM-wrapper {
+  background-image: url(./images/Rectangle34.jpeg);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1025px;
+  position: relative;
+  width: 520px;
+}
+
+.wireframe-paket-foto .PLA-TI-NUM {
+  -webkit-text-stroke: 1.5px white;
+  color: green;
+  font-family: "Jacques Francois-Regular", Helvetica;
+  font-size: 96px;
+  font-weight: 400;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 6px;
+}
+
+.wireframe-paket-foto .group-16 {
+  height: 1372px;
+  left: 129px;
+  position: absolute;
+  top: 1614px;
+  width: 1664px;
+}
+
+.wireframe-paket-foto .text-wrapper-22 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 64px;
+  font-weight: 400;
+  left: 481px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: -100px;
+}
+
+.wireframe-paket-foto .group-17 {
+  height: 130px;
+  left: 262px;
+  position: absolute;
+  top: 1242px;
+  width: 1106px;
+}
+
+.wireframe-paket-foto .group-18 {
+  height: 130px;
+  left: 586px;
+  position: absolute;
+  top: 0;
+  width: 522px;
+}
+
+.wireframe-paket-foto .overlap-group-2 {
+  background-color: #e2ab1f;
+  border-radius: 15px;
+  height: 130px;
+  position: relative;
+  width: 520px;
+}
+
+.wireframe-paket-foto .text-wrapper-23 {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  left: 133px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 41px;
+  white-space: nowrap;
+}
+
+.wireframe-paket-foto .ooui-next-ltr {
+  height: 75px;
+  left: 367px;
+  position: absolute;
+  top: 27px;
+  width: 75px;
+}
+
+.wireframe-paket-foto .group-19 {
+  height: 130px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 522px;
+}
+
+.wireframe-paket-foto .overlap-6 {
+  background-color: #363636;
+  border-radius: 15px;
+  height: 130px;
+  position: relative;
+  width: 520px;
+}
+
+.wireframe-paket-foto .text-wrapper-24 {
+  color: #e2ab1f;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  left: 121px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 41px;
+  white-space: nowrap;
+}
+
+.wireframe-paket-foto .ooui-next-ltr-2 {
+  height: 75px;
+  left: 410px;
+  position: absolute;
+  top: 27px;
+  width: 75px;
+}
+
+.wireframe-paket-foto .frame-wrapper {
+  background-color: #363636;
+  height: 255px;
+  left: 245px;
+  position: absolute;
+  top: 510px;
+  width: 1417px;
+}
+
+.wireframe-paket-foto .frame-4 {
+  align-items: center;
+  display: inline-flex;
+  gap: 50px;
+  left: 431px;
+  position: relative;
+  top: 63px;
+}
+
+.wireframe-paket-foto .icon-instance-node {
+  height: 130px !important;
+  position: relative !important;
+  width: 130px !important;
+}
+
+.wireframe-paket-foto .text-wrapper-25 {
+  color: #e2ab1f;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.wireframe-paket-foto .group-20 {
+  background-color: #e2ab1f;
+  height: 255px;
+  left: 0;
+  position: absolute;
+  top: 178px;
+  width: 1417px;
+}
+
+.wireframe-paket-foto .frame-5 {
+  align-items: center;
+  display: inline-flex;
+  gap: 50px;
+  left: 440px;
+  position: relative;
+  top: 63px;
+}
+
+.wireframe-paket-foto .text-wrapper-26 {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.wireframe-paket-foto .group-21 {
+  height: 255px;
+  left: 0;
+  position: absolute;
+  top: 842px;
+  width: 1419px;
+}
+
+.wireframe-paket-foto .overlap-7 {
+  background-color: #e2ab1f;
+  height: 255px;
+  position: relative;
+  width: 1417px;
+}
+
+.wireframe-paket-foto .overlap-group-3 {
+  left: 375px;
+  position: absolute;
+  top: 65px;
+}
+
+.wireframe-paket-foto .group5 {
+  height: 130px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 130px !important;
+}
+
+.wireframe-paket-foto .group6 {
+  height: 130px !important;
+  left: 98px !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 130px !important;
+}
+
+.wireframe-paket-foto .users-four {
+  height: 130px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 130px !important;
+}
+
+.wireframe-paket-foto .users-four-instance {
+  height: 130px !important;
+  left: 98px !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 130px !important;
+}
+
+.wireframe-paket-foto .text-wrapper-27 {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 64px;
+  font-weight: 700;
+  left: 645px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 90px;
+}
+
+.wireframe-paket-foto .group-22 {
+  height: 458px;
+  left: 124px;
+  position: absolute;
+  top: 3948px;
+  width: 1675px;
+}
+
+.wireframe-paket-foto .setiap-wisudawan {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 110px;
+  width: 1666px;
+}
+
+.wireframe-paket-foto .frame-6 {
+  align-items: center;
+  display: inline-flex;
+  gap: 72px;
+  justify-content: center;
+  left: 1px;
+  position: absolute;
+  top: 0;
+}
